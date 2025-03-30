@@ -2,7 +2,7 @@
     import { Footer, FooterCopyright, FooterLinkGroup, FooterBrand, FooterLink } from 'flowbite-svelte';
 </script>
 
-<div class="flex flex-col min-h-screen">
+<div class="flex flex-col mt-30">
   
   <Footer footerType="logo" class="bg-gray-800 text-white py-4 mt-auto rounded-none">
     <div class="sm:flex sm:items-center sm:justify-center text-center">
