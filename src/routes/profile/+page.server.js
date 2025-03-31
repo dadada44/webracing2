@@ -28,7 +28,7 @@ export async function load({ locals }) {
       User1: {
         id: User1.id,
         nickname: User1.nickname,
-        datum_nar: User1.datum_nar
+        
       }
     }
   };
