@@ -103,10 +103,10 @@
         <span class="text-gray-700 dark:text-gray-300">Confirm Password</span>
         <Input type="password" bind:value={confirmPassword} placeholder="•••••" required />
       </Label>
-      <Button type="submit" class="w-full py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-all">Sign Up</Button>
+      <Button type="submit" class="w-full py-3 bg-slate-500 text-white hover:bg-slate-950 rounded-md transition-all">Sign Up</Button>
     </form>
     <div class="text-sm font-medium text-center text-gray-500 dark:text-gray-300 mt-4">
-      Already have an account? <a href="/login" class="text-blue-600 hover:underline dark:text-blue-400">Login</a>
+      Already have an account? <a href="/login" class="text-gray-800 hover:underline dark:text-gray-400">Login</a>
     </div>
   </Card>
 </div>

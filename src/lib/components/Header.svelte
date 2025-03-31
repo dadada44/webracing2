@@ -16,7 +16,7 @@
           Find Your Place
         </NavLi>
         
-        <img src="images\logo.png" alt="Logo" class="mr-5 h-10 sm:h-">
+        <img src="\images\logo.png" alt="Logo" class="mr-5 h-10 sm:h-">
         
         <NavLi href="/contact" class="text-xl text-background:#0A1128 transition-colors hover:text-blue-500">
           Company evaluation

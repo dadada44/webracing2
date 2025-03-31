@@ -67,10 +67,10 @@
           <input type="checkbox" bind:checked={rememberMe} />
           <span>Remember me</span>
         </div>
-        <Button type="submit" class="w-full py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-all">Login</Button>
+        <Button type="submit" class="w-full py-3bg bg-slate-500 text-white hover:bg-slate-950 rounded-md transition-all">Login</Button>
       </form>
       <div class="text-sm font-medium text-center text-gray-500 dark:text-gray-300 mt-4">
-        Not registered? <a href="/login/register" class="text-blue-600 hover:underline dark:text-blue-400">Create an account</a>
+        Not registered? <a href="/login/register" class="text-gray-800 hover:underline dark:text-blue-400">Create an account</a>
       </div>
         {#if notification}
           <div class="notification">{notification}</div>
