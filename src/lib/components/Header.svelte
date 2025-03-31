@@ -10,8 +10,10 @@
     <div class="flex items-center lg:order-2">
       <NavHamburger class="text-white" />
     </div>
-    <NavUl class="flex flex-col items-center justify-center h-full text-white relative z-10 lg:flex-row lg:space-x-8 lg:mt-0">
-      <NavLi href="/" active={true} class=" text-xl text-sky-100 transition-colors hover:text-blue-500">Home</NavLi>
+    <NavUl
+    class="flex flex-col items-center bg-sky-950 justify-center h-full text-white 
+           relative z-10 lg:flex-row lg:space-x-8 lg:mt-0 lg:bg-transparent">      
+      <NavLi href="/" active={true} class=" text-xl text-sky-100 transition-colors hover:text-black">Home</NavLi>
       <NavLi href="/about" class="text-xl text-sky-100 text-center transition-colors hover:text-blue-500">About</NavLi>
       <NavLi href="/contact" class="text-xl text-sky-100 transition-colors hover:text-blue-500">Contact</NavLi>
       <NavLi href="/login" class="text-xl text-sky-100 transition-colors hover:text-blue-500">
