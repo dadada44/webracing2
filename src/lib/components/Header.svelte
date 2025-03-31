@@ -22,8 +22,8 @@
           Company evaluation
         </NavLi>
         
-        <NavLi href="/contact" class="text-xl text-background:#0A1128 transition-colors hover:text-blue-500">
-          Contact
+        <NavLi href="/login" class="text-xl text-background:#0A1128 transition-colors hover:text-blue-500">
+          Login
         </NavLi>
         
       </NavUl>

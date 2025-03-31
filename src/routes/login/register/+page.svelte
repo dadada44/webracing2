@@ -75,7 +75,7 @@
 
 <Header />
 
-<div class="flex justify-center items-center mt-20 min-h-screen px-4 sm:px-6 lg:px-8">
+<div class="flex justify-center items-center mt-30 min-h-screen px-4 sm:px-6 lg:px-8">
   <Card class="w-full max-w-md p-6 shadow-2xl border border-gray-300 dark:border-gray-700 rounded-lg">
     <h2 class="text-2xl font-bold text-center text-gray-900 dark:text-white">Sign Up</h2>
     <form class="flex flex-col space-y-4" on:submit|preventDefault={register}>

@@ -72,9 +72,6 @@
       <div class="text-sm font-medium text-center text-gray-500 dark:text-gray-300 mt-4">
         Not registered? <a href="/login/register" class="text-blue-600 hover:underline dark:text-blue-400">Create an account</a>
       </div>
-      <div class="text-sm font-medium text-center text-gray-500 dark:text-gray-300 mt-2">
-        <a href="/login/reset-password" class="text-red-500 hover:underline">Forgot password?</a>
-      </div>
         {#if notification}
           <div class="notification">{notification}</div>
         {/if}
