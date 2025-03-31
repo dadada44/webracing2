@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1743406591596,
+      "tag": "0000_cold_vivisector",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1743407899994,
+      "tag": "0001_ancient_robin_chapel",
+      "breakpoints": true
+    }
+  ]
+}

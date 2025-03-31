@@ -52,6 +52,8 @@
 	],
 	"dependencies": {
 		"@libsql/client": "^0.14.0",
+		"bcrypt": "^5.1.1",
+		"bcryptjs": "^3.0.2",
 		"drizzle-orm": "^0.40.0"
 	},
 	"pnpm": {
