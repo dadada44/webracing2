@@ -4,9 +4,6 @@
 
 <div class="relative px-8">
   <Navbar class="px-4 sm:px-6 py-4 fixed w-full z-20 top-0 start-0 bg-sky-950 border-none">
-    <NavBrand href="/">
-      <span class="self-center text-2xl font-semibold text-white">Flowbite</span>
-    </NavBrand>
     <div class="flex items-center lg:order-2">
       <NavHamburger class="text-white" />
     </div>
@@ -16,7 +13,7 @@
       <NavLi href="/contact" class="text-xl text-sky-100 transition-colors hover:text-blue-500">Contact</NavLi>
       <NavLi href="/login" class="text-xl text-sky-100 transition-colors hover:text-blue-500">
         <button class="px-6 text-l py-2 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition-all transform hover:scale-105">
-          Login
+          Lrfvnjsrfjssdsdsd
         </button>
       </NavLi>
     </NavUl>
