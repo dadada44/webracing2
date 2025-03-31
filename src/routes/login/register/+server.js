@@ -22,14 +22,14 @@ export async function POST({ request }) {
 
     try {
         // Kontrola, jestli uživatel existuje
-        const existingUserByEmail = await db.select().from(user).where(eq(user.email, email)).first();
-        const existingUserByNickname = await db.select().from(user).where(eq(user.nickname, nickname)).first();
+        const existingUserByEmail = await db.select().from(user).where(eq(user.email, email)).limit(1).all(); // Použití limit(1) pro získání pouze jednoho záznamu
+        const existingUserByNickname = await db.select().from(user).where(eq(user.nickname, nickname)).limit(1).all(); // Stejně tak pro nickname
 
-        if (existingUserByEmail) {
+        if (existingUserByEmail.length > 0) {  // Pokud byl nalezen záznam
             return new Response(JSON.stringify({ success: false, message: 'Email already exists.' }), { status: 409 });
         }
 
-        if (existingUserByNickname) {
+        if (existingUserByNickname.length > 0) {  // Pokud byl nalezen záznam
             return new Response(JSON.stringify({ success: false, message: 'Nickname already exists.' }), { status: 409 });
         }
 
